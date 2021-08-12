@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="head">
+        <h2>Quiz Appliaction</h2>
+    </div>
+    <div class="flex">
+        <div class="img1">
+            <img src="images/alarm-clocks-alarm.gif" width="380px">
+        </div>
+        <div class="cont">
+            <div class="welcome">Welcome User!</div>   
+            <button class="button">Take the QUIZ</button><br>
+            <div class="select-subject">
+                <select id="txt" name="subject" required>
+                    <option disabled value selected>Select Subject</option>
+                    <option value="Aptitude">Aptitude</option>
+                    <option value="Operating System">Operating System</option>
+                    <option value="C++">C++</option>>
+                </select>
+                <button class="glow-on-hover">Go</button>
+            </div>
+        </div>
+        <div class="img2">
+            <img src="images/ques.svg" width="60%">
+        </div>
+    </div>
+    <script src="js/take_quiz.js"></script>
+</body>
+</html>
